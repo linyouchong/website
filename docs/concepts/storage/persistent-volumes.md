@@ -108,6 +108,8 @@ The Retain reclaim policy allows for manual reclamation of the resource. When th
 
 #### Recycling
 
+**Note:** The reclaim policy `Recycle` is being deprecated, and will be removed in a future release.
+
 If supported by appropriate volume plugin, recycling performs a basic scrub (`rm -rf /thevolume/*`) on the volume and makes it available again for a new claim.
 
 However, an administrator can configure a custom recycler pod template using the Kubernetes controller manager command line arguments as described [here](/docs/admin/kube-controller-manager/). The custom recycler pod template must contain a `volumes` specification, as shown in the example below:
