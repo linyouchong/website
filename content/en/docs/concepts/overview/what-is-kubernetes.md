@@ -66,7 +66,9 @@ with [their own
 APIs](/docs/concepts/api-extension/custom-resources/)
 that can be targeted by a general-purpose [command-line
 tool](/docs/user-guide/kubectl-overview/).
+dfdfasdf
 
+dsfsdfs
 This
 [design](https://git.k8s.io/community/contributors/design-proposals/architecture/architecture.md)
 has enabled a number of other systems to build atop Kubernetes.
